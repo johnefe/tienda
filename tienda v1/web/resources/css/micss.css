@@ -1,0 +1,61 @@
+body {
+  background-color: #EDE9E0;
+}
+
+/* ---------- Estilos para la cabecera ---------- */
+
+#cabecera {
+  border-bottom: 1px solid #999;
+}
+
+#cabecera_logo {
+  margin: 15px 0 10px 15px;
+}
+
+#cabecera_titulo {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'arial black', sans-serif;
+  margin: 40px 0 0 0;
+}
+
+#cabecera_titulo h1 {
+  color: #888;
+}
+
+#cabecera_menu {
+  margin: 80px 0 0 0;
+}
+
+#cabecera_menu_items li {
+  margin-right: 15px;
+  float: left;
+  list-style: none;
+}
+
+/* ---------- Estilos para el centro (menu y contenido) ---------- */
+
+#centro_izquierda {
+  margin: 10px 0 0 0;
+}
+
+#centro_contenido {
+  margin: 10px 0 0 0;
+}
+
+/* ---------- Estilos para el pie de pagina ---------- */
+
+#pie {
+  border-top: 1px solid #999;
+}
+
+#pie_texto {
+  text-align: right;
+  margin: 17px 0 0 0;
+  color: #888;
+}
+
+#pie_logo {
+  text-align: left;
+  margin: 10px 0 0 0;
+}
