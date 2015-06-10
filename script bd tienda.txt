@@ -14,7 +14,7 @@ CREATE TABLE `tienda`.`producto_compra` (
 `id_compra` INT NOT NULL,
 `cantidad` INT NOT NULL,
 `precio_compra` DECIMAL(16,2) NOT NULL,
-PRIMARY KEY (`id_producto`));
+PRIMARY KEY (`id_producto`,`id_compra`));
 
 CREATE TABLE `tienda`.`marca`(
 `id` INT NOT NULL,
@@ -61,7 +61,7 @@ CREATE TABLE `tienda`.`venta_producto`(
 `id_producto` int not null,
 `cantidad` int not null,
 `valor` decimal(16,2),
-PRIMARY KEY (`id_venta`));
+PRIMARY KEY (`id_venta`,`id_producto`));
 
 CREATE TABLE `tienda`.`cliente`(
 `id` int not null auto_increment,
